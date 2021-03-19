@@ -28,9 +28,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/video.js/dist/video-js.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/video.js/dist/video.min.js",
+              "node_modules/videojs-contrib-quality-levels/dist/videojs-contrib-quality-levels.min.js",
+              "node_modules/videojs-hls-quality-selector/dist/videojs-hls-quality-selector.min.js",
+              "node_modules/amazon-ivs-player/dist/assets/amazon-ivs-wasmworker.min.js"
+            ]
           },
           "configurations": {
             "production": {

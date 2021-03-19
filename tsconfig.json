@@ -12,12 +12,20 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "es2020",
+    "types": [
+      "node",
+      "video.js"
+    ],
+    "skipLibCheck": true,
     "lib": [
       "es2018",
-      "dom"
+      "dom",
+      "webworker"
     ]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false
-  }
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["**/*.wasm"]
 }
